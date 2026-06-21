@@ -1,0 +1,27 @@
+{
+  "name": "AI-Relay-Kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hono/node-server": "2.0.5",
+    "axios": "1.18.0",
+    "dotenv": "17.4.2",
+    "hono": "4.12.26"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.0",
+    "tsx": "4.22.4",
+    "typescript": "6.0.3"
+  }
+}
